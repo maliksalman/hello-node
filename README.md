@@ -1,6 +1,6 @@
-# hellonode
+# hello-node
 
-A hello world kind of application that provides a REST endpoint (`GET /`)using NodeJS. There are couple of environment variables that can be used to alter the behavior:
+A hello-world kind of application that provides a REST endpoint (`GET /`)using NodeJS. There are couple of environment variables that can be used to alter the behavior:
 
 | Variable | Purpose | Default Value |
 | -------- | ------- | ------------- |
