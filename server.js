@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res, next) => {
     res.json({
         time: new Date(),
-        ver: getEnvironmentVar('VER', 'UNKNOWN'),
+        version: getEnvironmentVar('VER', 'UNKNOWN'),
         host: os.hostname()
     });
 });
