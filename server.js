@@ -3,7 +3,7 @@ const os = require("os");
 
 const app = express();
 
-app.get("/", (req, res, next) => {
+app.get(["/", "/hello"], (req, res, next) => {
     res.json({
         time: new Date(),
         ver: getEnvironmentVar('VER', 'UNKNOWN'),
