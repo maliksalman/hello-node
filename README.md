@@ -7,6 +7,5 @@ A hello-world kind of application that provides a REST endpoint (`GET /`)using N
 | SERVER_PORT | Sets the port the application will listen on | 8080 |
 | VER | Version number shown in the `/` endpoint | UNKNOWN |
 
-hello there
 one more
 yet another line
