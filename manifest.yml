@@ -1,7 +1,10 @@
 ---
 applications:
-  - name: samalik-hellonode
+  - name: hellonode
     memory: 64M
+    routes: 
+    - route: hello-node-[name].[domain]
+    # - route: hello-node-tcollings.apps.dhaka.cf-app.com
     instances: 1
     env:
       VER: '1.0'
