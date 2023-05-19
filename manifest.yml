@@ -1,0 +1,9 @@
+---
+applications:
+  - name: samalik-hellonode
+    memory: 64M
+    instances: 1
+    env:
+      VER: '1.0'
+    buildpacks:
+      - nodejs_buildpack
