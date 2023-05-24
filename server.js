@@ -11,6 +11,13 @@ app.get(["/", "/hello"], (req, res, next) => {
     });
 });
 
+app.get(["/health"], (req, res, next) => {
+    res.json({
+        status: 'UP'
+    });
+});
+
+
 const port = getEnvironmentVar("SERVER_PORT", 8080);
 app.listen(port, () => {
     console.log("Server running: Port=" + port);

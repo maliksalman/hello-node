@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: hellonode
+  - name: hello-node
     memory: 64M
     routes: 
     - route: hello-node-[name].[domain]
@@ -10,3 +10,4 @@ applications:
       VER: '1.0'
     buildpacks:
       - nodejs_buildpack
+    random-route: true
