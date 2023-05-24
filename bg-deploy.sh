@@ -32,7 +32,7 @@ cf map-route ${GREEN_APP} ${APP_DOMAIN} --hostname ${APP_DOMAIN_PREFIX}-${GREEN_
 # healthcheck using green route (loop with timeout - check every 5 seconds for 2 minutes)
 APP_URL="https://${APP_DOMAIN_PREFIX}-${GREEN_APP}.${APP_DOMAIN}"
 
-for i in {1..24}; do
+for i in {1..12}; do
 
     echo "`date` - Sleeping for 5 seconds before checking for GREEN app status"
     sleep 5
